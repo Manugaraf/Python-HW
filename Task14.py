@@ -4,6 +4,6 @@ n = int(input('Введите число: '))
 for i in range(n):
     k = 0
     if i < n:
-        i = i ** k
-        k += 1
-    print(i)
+        i = i**k
+        k += 2
+        print(i)
