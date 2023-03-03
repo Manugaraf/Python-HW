@@ -7,7 +7,7 @@ for i in range(n):
     massiv.append(int(input('Введите элемент: ')))
 
 
-x = int(input('Введите число x, которое необходимо найти в списке: '))
+x = int(input('Введите число x: '))
 count = 0
 for i in range(n):
     if massiv[i] == x:
