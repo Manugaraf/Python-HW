@@ -4,7 +4,8 @@ a = int(input('Введите число A: '))
 b = int(input('Введите число B: '))
 
 def stepen(a, b):
-    if b == 0: return 1
+    if b == 0:
+        return 1
     a *= stepen(a, b - 1)
     return a
 print(stepen(a, b))
